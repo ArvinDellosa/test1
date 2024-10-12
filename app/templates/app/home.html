@@ -1,0 +1,68 @@
+{% extends 'app/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<style>
+
+
+
+
+
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ddd;
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+.mylogo-section{
+    float: right;
+    width: 40%;
+}
+.mylogo-section img{
+    width: 90%;
+    height: auto;
+}
+.content-section .title{
+  margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.content-section .content h2{
+    margin-top: 20px;
+    font-family: arial, Helvetica, sans-serif;
+    color: #5d5d5d;
+}
+
+</style>
+
+<div class="section">
+  <div class="container">
+    <div class="content-section">
+      <div class="title">
+        <h2>Welcome to my page </h2>
+      </div>
+      <div class="content">
+        <h2>This page is trying to create something that can provide our client an effective,user-freindly and also
+          reusable for more future projects. The main point of this website is to create an e-commerce for selling basketball
+          apparel also to give the best and quality product we have.</h2>
+      </div>
+    </div>
+  </div>
+  <div class="mylogo-section">
+    <img src="{% static 'images/bg.png' %}">
+  </div>
+</div>
+
+
+{% endblock content %}

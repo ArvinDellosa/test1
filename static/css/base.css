@@ -1,0 +1,89 @@
+/*Navbar*/
+/**{*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    text-decoration: none;*/
+/*    list-style: none;*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*body{*/
+/*    font-family: roboto;*/
+/*}*/
+/*nav{*/
+/*    background: grey;*/
+/*    height: 80px;*/
+/*    width: 100%;*/
+/*}*/
+/*label.logo{*/
+/*    color: papayawhip;*/
+/*    font-size: 40px;*/
+/*    line-height: 85px;*/
+/*    padding: 0 90px;*/
+/*    font-weight: bold;*/
+/*}*/
+/*nav ul{*/
+/*    float: right;*/
+/*    margin-right: 450px;*/
+/*    padding: 4.5px;*/
+/*}*/
+/*nav ul li{*/
+/*    display: inline-block;*/
+/*    line-height: 80px;*/
+/*    margin: 0 5px;*/
+/*}*/
+/*nav ul li a{*/
+/*    color: white;*/
+/*    font-size: 25px;*/
+/*    padding: 13px 19px;*/
+/*    border-radius: 3px;*/
+/*    text-transform: uppercase;*/
+/*}*/
+/*a:hover{*/
+/*    background: black;*/
+/*    transition: .5s;*/
+/*}*/
+
+/*Home and logo*/
+
+
+
+
+
+/*About and logo*/
+/*.section{*/
+/*    width: 100%;*/
+/*    min-height: 100vh;*/
+/*    background-color: #ddd;*/
+/*}*/
+/*.container{*/
+/*    width: 80%;*/
+/*    display: block;*/
+/*    margin: auto;*/
+/*    padding-top: 100px;*/
+/*}*/
+/*.content-section{*/
+/*    float: left;*/
+/*    width: 55%;*/
+/*}*/
+/*.mylogo-section{*/
+/*    float: right;*/
+/*    width: 40%;*/
+/*}*/
+/*.mylogo-section img{*/
+/*    width: 90%;*/
+/*    height: auto;*/
+/*}*/
+/*.content-section .title{*/
+/*    text-transform: uppercase;*/
+/*    font-size: 25px;*/
+/*}*/
+/*.content-section .content h3{*/
+/*    margin-top: 10px;*/
+/*    font-family: "'Pacifico', cursive";*/
+/*    color: #5d5d5d;*/
+/*}*/
+/*.content-section .title .content h3{*/
+
+/*}*/
+
+

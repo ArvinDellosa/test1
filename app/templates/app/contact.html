@@ -1,0 +1,148 @@
+{% extends 'app/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<style>
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+}
+footer{
+  background: #343434;
+  padding-top: 50px;
+}
+.container{
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content{
+  width: 33.3%;
+}
+h3{
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.footer-content p{
+  width: 190px;
+  margin: auto;
+  padding: 7px;
+}
+.footer-content ul{
+  text-align: center;
+}
+.list{
+  padding: 0px;
+}
+.list li{
+  width: auto;
+  text-align: center;
+  list-style-type: none;
+  padding: 7px;
+  position: relative;
+}
+.list li::before{
+  content: '';
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 100%;
+  width: 0;
+  height: 2px;
+  background: #f18930;
+  transition-duration: .5s;
+}
+.list li:hover::before{
+  width: 70px;
+}
+.social-icons{
+  text-align: center;
+  padding: 0;
+}
+.social-icons li{
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+}
+.social-icons i{
+  color: white;
+  font-size: 25px;
+}
+a{
+  text-display: none;
+}
+a:hover{
+  color: #f18930;
+  background: none;
+}
+.social-icons i:hover{
+  color: #f18930;
+}
+.bottom-bar{
+  background: #f18930;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 50px;
+}
+.bottom-bar p{
+  color: #343434;
+  margin: 0;
+  font-size: 16px;
+  padding: 7px;
+}
+</style>
+
+<footer>
+
+        <!--  For other information to contact gmail, phone and address for reference -->
+    <div class="container">
+      <div class="footer-content">
+        <h3>Contact Me</h3>
+        <p>Gmail: bc.sabinoarthur.dellosa@cvsu.edu.ph</p>
+        <p>Phone: 0999-811-5024</p>
+        <p>Address: 2155 Marcos Alvarez Ave, Talon Uno Las Pinas City</p>
+      </div>
+
+
+        <!-- For quick links not responsive      -->
+      <div class="footer-content">
+        <h3>Quick Links</h3>
+          <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+      </div>
+
+
+        <!-- For social icons -->
+      <div class="footer-content">
+        <h3>Follow us for more info</h3>
+        <ul class="social-icons">
+        <li><a href="#"   ><i class="fab fa-facebook-f">    </i></a></li>
+        <li><a href="#"   ><i class="fab fa-twitter">       </i></a></li>
+        <li><a href="#"   ><i class="fab fa-instagram">     </i></a></li>
+        </ul>
+      </div>
+    </div>
+
+
+        <!--  hehe     -->
+      <div class="bottom-bar">
+          <p>Practice creating website e-commerce</p>
+      </div>
+</footer>
+
+
+
+
+
+{% endblock content %}

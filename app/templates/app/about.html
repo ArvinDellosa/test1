@@ -1,0 +1,69 @@
+{% extends 'app/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<style>
+
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ddd;
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+.mylogo-section{
+    float: right;
+    width: 40%;
+}
+.mylogo-section img{
+    width: 90%;
+    height: auto;
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.content-section .content h3{
+    margin-top: 10px;
+    font-family: arial, Helvetica, sans-serif;
+    color: #5d5d5d;
+}
+.content-section .title .content h3{
+
+}
+
+</style>
+
+<div class="section">
+  <div class="container">
+    <div class="content-section">
+      <div class="title">
+        <h1>About Me </h1>
+      </div>
+      <div class="content">
+        <h3>I'm Sabino Arthur Dellos, 22 years old and proudly from Las Piñas City.
+          I'm passionate about playing basketball, which has taught me hardwork, discipline, and give extra work to improve everything.
+          I carry into every aspect of life. Espeacially now. I'm current exploring the exciting world of technology and working toward
+          building a career in the IT industry. Whether it's diving into coding or learning new tech skills, I'm always eager
+          to challenge myself and grow.</h3>
+      </div>
+    </div>
+  </div>
+  <div class="mylogo-section">
+    <img src="{% static 'images/me.jpg' %}">
+  </div>
+</div>
+
+<!--<img class="mylogo" src="{% static 'images/me.jpg' %}">-->
+
+{% endblock content %}
+

@@ -1,0 +1,62 @@
+{% load static %}
+
+<style>
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    background: grey;
+    height: 80px;
+    width: 100%;
+
+}
+label.logo{
+    color: #f18930;
+    font-size: 40px;
+    line-height: 85px;
+    padding: 0 90px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 450px;
+    padding: 4.5px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 25px;
+    padding: 13px 19px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a:hover{
+    background: black;
+    transition: .5s;
+}
+a:hover{
+  color: #f18930;
+  background: none;
+}
+
+</style>
+
+
+<nav>
+      <label class="logo">Netkicks</label>
+      <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'about' %}">About</a></li>
+            <li><a href="{% url 'contact' %}">Contact</a></li>
+      </ul>
+</nav>
